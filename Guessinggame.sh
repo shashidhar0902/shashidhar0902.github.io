@@ -1,6 +1,6 @@
 fn="$(ls -1 | wc -l)"
 
-echo "How many files are there in the current d>
+echo "How many files are there in the current directory"
 
 read gn
 
