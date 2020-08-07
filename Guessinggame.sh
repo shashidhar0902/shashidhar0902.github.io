@@ -28,7 +28,7 @@ do
 
         else
         
-        then
+
 
                 echo "enter proper number"
 
