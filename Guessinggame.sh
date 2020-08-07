@@ -26,11 +26,7 @@ do
 
                 echo "too low"
 
-        else
-        
 
-
-                echo "enter proper number"
 
         fi
 
