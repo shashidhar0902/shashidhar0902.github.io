@@ -1,0 +1,39 @@
+fn="$(ls -1 | wc -l)"
+
+echo "How many files are there in the current d>
+
+read gn
+
+function congrats {
+
+                echo "Congratulations! You gues>
+
+}
+
+while [[ $gn != $fn ]]
+
+do
+
+  if [[ $gn -gt $fn ]]
+
+        then
+
+                echo "too high"
+
+        elif [[ $gn -lt $fn ]]
+
+        then
+
+                echo "too low"
+
+        else
+
+                echo "enter proper number"
+
+        fi
+
+        read gn
+
+done
+
+congrats
