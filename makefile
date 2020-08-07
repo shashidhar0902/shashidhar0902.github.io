@@ -6,4 +6,6 @@ all:
 
         date >> README.md
 
-        echo "Number of lines:" >>README.md | l>
+        echo "Number of lines:" >>README.md
+        
+        wc -l < guessinggame.sh >> README.md
