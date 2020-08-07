@@ -6,7 +6,7 @@ read gn
 
 function congrats {
 
-                echo "Congratulations! You gues>
+                echo "Congratulations! Your guess is right"
 
 }
 
