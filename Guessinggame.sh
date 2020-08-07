@@ -14,7 +14,7 @@ while [[ $gn != $fn ]]
 
 do
 
-  if [[ $gn -gt $fn ]]
+        if [[ $gn -gt $fn ]]
 
         then
 
