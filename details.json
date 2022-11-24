@@ -10,5 +10,21 @@
   {
     "Name": "Sundaram",
     "Department": "EEE"
+  },
+  {
+    "Name": "Nikhil",
+    "Department": "Mech"
+  },
+  {
+    "Name": "Dedeepya",
+    "Department": "EEE"
+  },
+  {
+    "Name": "Hannah",
+    "Department": "Biotechnology"
+  },
+  {
+    "Name": "Dheeraj",
+    "Department": "Biotechnology"
   }
 ]
