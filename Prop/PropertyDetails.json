@@ -1,17 +1,17 @@
 [
   {
     "Type": "1BHK",
-    "Rent": "12000",
+    "Rent": 12000,
     "Place": "Loc1"
   },
   {
     "Type": "2BHK",
-    "Rent": "15000",
+    "Rent": 15000,
     "Place": "Loc2"
   },
   {
     "Type": "3BHK",
-    "Rent": "20000",
+    "Rent": 20000,
     "Place": "Loc3"
   }
 ]
