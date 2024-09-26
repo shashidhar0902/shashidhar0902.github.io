@@ -1,15 +1,236 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Links for json files</title>
-  </head>
-  <body>
-    <a href="test.json">Test.json</a>
-    </br>
-    <a href="details.json">Details.json</a>
-    </br>
-    <a href="Prop/PropertyDetails.json">PropertyDetails.json</a>
-    </br>
-    <a href="Page/index.html">Page</a>
-  </body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#" style="background-image: linear-gradient(to right, #333, #555); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="about-header">
+                <h1 class="display-4">About Me</h1>
+                <hr class="about-hr" />
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <figure>
+                        <img src="img/profile.jpg" alt="My Profile Picture" class="img-fluid rounded-circle" />
+                        <figcaption>Gandi Shashidhar</figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-8">
+                    <p class="lead">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
+                        amet nulla auctor, vestibulum magna sed, convallis ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Education Section -->
+<section id="education" class="py-5">
+    <div class="container">
+        <h1 class="display-4">Education</h1>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="education-box">
+                    <div class="education-box-header">
+                        <span>National Institute of technology, Andhra Pradesh </span>
+                        <span>Tadepalligudem, Andhra Pradesh</span>
+                    </div>
+                    <div class="education-box-body">
+                        <span>Bachelor of Technology (Biotechnology)</span>
+                        <span> Aug. 2018 – May 2022</span>
+                    </div>
+                </div>
+                <div class="education-box">
+                    <div class="education-box-header">
+                        <span>Narayana Junior College</span>
+                        <span>Visakhapatnam, Andhra Pradesh</span>
+                    </div>
+                    <div class="education-box-body">
+                        <span>Intermediate (MPC)</span>
+                        <span>Aug. 2015 – May 2017</span>
+                    </div>
+                </div>
+                <div class="education-box">
+                    <div class="education-box-header">
+                        <span>M.S.M Public School</span>
+                        <span>Visakhapatnam, Andhra Pradesh</span>
+                    </div>
+                    <div class="education-box-body">
+                        <span>Primary & Secondary Education</span>
+                        <span>2015</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Technical Skills Section -->
+<section id="technical-skills" class="py-5">
+    <div class="container">
+        <h1 class="display-4">Technical Skills</h1>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="skill-box">
+                    <h5>Languages:</h5>
+                    <ul>
+                        <li>Python <span class="rating" data-rating="4">4/5</span></li>
+                        <li>MSSQL <span class="rating" data-rating="4">4/5</span></li>
+                        <li>JavaScript <span class="rating" data-rating="4.5">4.5/5</span></li>
+                        <li>HTML/CSS <span class="rating" data-rating="5">5/5</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="skill-box">
+                    <h5>Frameworks:</h5>
+                    <ul>
+                        <li>Angular <span class="rating" data-rating="4">4/5</span></li>
+                        <li>Flask <span class="rating" data-rating="4">4/5</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="skill-box">
+                    <h5>Developer Tools:</h5>
+                    <ul>
+                        <li>Git <span class="rating" data-rating="5">5/5</span></li>
+                        <li>VS Code <span class="rating" data-rating="5">5/5</span></li>
+                        <li>Visual Studio <span class="rating" data-rating="4.5">4.5/5</span></li>
+                        <li>Azure Services <span class="rating" data-rating="4">4/5</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="skill-box">
+                    <h5>Libraries:</h5>
+                    <ul>
+                        <li>Jquery <span class="rating" data-rating="4">4/5</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="skill-box">
+                    <h5>Cloud Platform:</h5>
+                    <ul>
+                        <li>Azure AI Services <span class="rating" data-rating="4.5">4.5/5</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h1 class="display-4">My Projects</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/project1.png" class="card-img-top" alt="Project 1" />
+                        <div class="card-body">
+                            <h5 class="card-title">Terumo BCT</h5>
+                            <li class="card-text">Added features to existing applications</li>
+                            <li class="card-text">Fixed Bugs which were critical, after thorough impact analysis</li>
+                            <li class="card-text">Collaborated closely with clients to understand their requirements and deliver quality product.</li>
+                            <li class="card-text">Delivered products before deadlines.</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Certifications Section -->
+    <section id="certifications" class="py-5">
+        <div class="container">
+            <h1 class="display-4">Certifications</h1>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="certification-list">
+                        <div class="certification-item">
+                            <h5>Microsoft Certified: Azure AI Fundamentals</h5>
+                            <p>
+                                Provider: Microsoft
+                                <span style="float: right;">Issue Date: 21 September 2024</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h1 class="display-4">Get in Touch</h1>
+            <p class="lead">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet
+                nulla auctor, vestibulum magna sed, convallis ex.
+            </p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name" />
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email" />
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" placeholder="Enter your message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </section>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
